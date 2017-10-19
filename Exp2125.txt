@@ -1,0 +1,9 @@
+#! usr/bin/env perl -w
+#Practice the uasge of x operator.
+print"Please input a string, ending with Enter:";
+#chomp($string=<STDIN>);This operation will omit the line breaks at the end of the string.
+$string=<STDIN>
+print"Please input times n you want it to repeat, ending with Enter:";
+$n=<STDIN>;
+print"The result is:\n";
+print $string x $n;

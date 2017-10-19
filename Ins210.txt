@@ -1,0 +1,8 @@
+#! /usr/bin/env perl -w
+#Add up some cardinals.
+#n=1
+while($n<10){
+	$sum += $n;
+	$n +=2;#Next odd number
+}
+print "The total sum is $sum.\n"

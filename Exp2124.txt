@@ -1,0 +1,8 @@
+#! usr/bin/env perl -w
+print"Please input number 1:";
+$num1=<STDIN>;
+print"\n"
+print"Please input number 2:";
+$num2=<STDIN>;
+print"\n"
+print"Their product is ",$num1*$num2,"\n";

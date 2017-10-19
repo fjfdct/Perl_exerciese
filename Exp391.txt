@@ -1,0 +1,5 @@
+#! usr/bin/env perl -w
+#Practice of list operation.
+print"Please input a list, ending with Ctrl + D:\n";
+@ilist=<STDIN>;
+print"The reversed list:",reverse @ilist,"\n";
