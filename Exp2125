@@ -1,5 +1,5 @@
 #! usr/bin/env perl -w
-#Practice the uasge of x operator.
+#Practice the usage of x operator.
 print"Please input a string, ending with Enter:";
 #chomp($string=<STDIN>);This operation will omit the line breaks at the end of the string.
 $string=<STDIN>
