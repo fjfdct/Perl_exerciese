@@ -1,0 +1,9 @@
+#! usr/bin/env perl -w
+print "Please input a radius:";
+$r=<STDIN>;
+$pi=3.14;
+if($r<0){
+print "C=0\n";
+}else{
+print "C=",2*$r*$pi,"\n";
+}
