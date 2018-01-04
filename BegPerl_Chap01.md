@@ -11,10 +11,10 @@ So Perl is strictly neither a compiled language nor interpreted one.
 9. Topaz project: an attempt to rewrite the entirety of Perl in C++.
 
 ## Hello World
-**#! usr/bin/env perl -w**
-(Or Linux: #! usr/bin/perl -w)
-#! tells how the file should be run. Use flag -w to turn on additional warning reporting.
+**#! usr/bin/env perl -w**  
+(Or Linux: #! usr/bin/perl -w)  
+#! tells how the file should be run. Use flag -w to turn on additional warning reporting.  
 
-For Perl 5.6.x and higher
-**#! usr/bin/env perl
-use warning;**
+For Perl 5.6.x and higher  
+**#! usr/bin/env perl  
+use warning;**  
