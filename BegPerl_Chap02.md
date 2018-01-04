@@ -10,3 +10,13 @@
 - Single-quoted (not interpolated): no processing is done within, except backslash \\\ or \\'.  
 - Double-quoted (interpolated): variable names inside are replaced by their contents.  
 5. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
+  
+e.g.  
+#! usr/bin/env perl -w  
+use warnings;  
+print "C:\\WINNT\\Profiles\\\n.";
+print 'C:\WINNT\Profiles\ ', "\n";  
+  
+gives
+C:\WINNT\Profiles\  
+C:\WINNT\Profiles\  
