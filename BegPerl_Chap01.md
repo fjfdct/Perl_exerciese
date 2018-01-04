@@ -34,4 +34,6 @@ use warning;**
 ## Common escape sequences
 \t \- tab  
 \n \- newline (start a new line)  
-\b \- backspace(back up one character)  
+\b \- backspace (back up one character)  
+\a \- alarm (ring system bell)
+\x{1F18} \- Unicode character
