@@ -12,11 +12,11 @@
 5. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
   
 e.g.  
-#! usr/bin/env perl -w  
+#! usr/bin/env perl -w  
 use warnings;  
 print "C:\\WINNT\\Profiles\\\n.";  
 print 'C:\WINNT\Profiles\ ', "\n";  
   
-gives  
+gives:  
 C:\WINNT\Profiles\  
 C:\WINNT\Profiles\  
