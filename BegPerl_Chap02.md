@@ -6,6 +6,6 @@
 
 ## Scalar literal constant: strings
 4. Processing interpolation:
-- Single-quoted: no processing is done within, except **\\\** or **\\'**.  
-- Double-quoted: 
+- Single-quoted (not interpolated): no processing is done within, except \\\ or \\'.  
+- Double-quoted (interpolated): variable names inside are replaced by their contents.  
 5.
