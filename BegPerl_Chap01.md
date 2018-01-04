@@ -22,4 +22,6 @@ For Perl 5.6.x and higher:
 use warning;**  
   
 ## Program structure
-10. **Keywords** come in several classes called **functions**.
+10. **Keywords** come in several classes called **functions**(_"verbs"_).
+11. **Statements**(_"sentences"_): end with a semicolon "**;**".
+12. Statement **blocks**(_"paragraphs"_): surrounded with braces "**{...}**".
