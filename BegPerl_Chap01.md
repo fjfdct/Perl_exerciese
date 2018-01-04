@@ -24,4 +24,5 @@ use warning;**
 ## Program structure
 10. **Keywords** come in several classes called **functions**(_"verbs"_).
 11. **Statements**(_"sentences"_): end with a semicolon "**;**".
-12. Statement **blocks**(_"paragraphs"_): surrounded with braces "**{...}**".
+12. Statement **blocks**(_"paragraphs"_): surrounded with braces "**{...}**". (Internal indentation allowed.)
+13. **Pass** the **arguments** to a function.
