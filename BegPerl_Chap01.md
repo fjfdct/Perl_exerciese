@@ -37,3 +37,10 @@ use warning;**
 \b \- backspace (back up one character)  
 \a \- alarm (ring system bell)  
 \x{1F18} \- hexadicimal (Unicode character)  
+
+## White space
+Free for tabs, spaces and new lines. Very flexible.  
+
+## Number systems
+Octal numbers start with 0. (e.g. 01101, gives decimal 577)  
+Hexadicimal numbers start with 0x. (e.g. 0xBEEF, gives decimal 48879)  
