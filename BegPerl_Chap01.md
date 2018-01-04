@@ -26,3 +26,8 @@ use warning;**
 11. **Statements**(_"sentences"_): end with a semicolon "**;**".
 12. Statement **blocks**(_"paragraphs"_): surrounded with braces "**{...}**". (Internal indentation allowed.)
 13. **Pass** multiple **arguments** to a function. Limit them with brackets "**()**".
+
+## Character set
+14. ASCII: consists of 1 Byte = 8 bit (thus 2^8 = 256) running from 0 to 255。
+15. Unicode: UTF8 for 2^(2*8)
+
