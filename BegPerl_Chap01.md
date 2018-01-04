@@ -1,4 +1,4 @@
-# Chap01
+# Chap01 First Steps in Perl
 ## Perl as a programming language
 1. Machine codes are for computers, while source code for humans. 
 2. "Byte-compiled" languages Perl and Java.
