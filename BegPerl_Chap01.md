@@ -35,5 +35,5 @@ use warning;**
 \t \- tab  
 \n \- newline (start a new line)  
 \b \- backspace (back up one character)  
-\a \- alarm (ring system bell)  
-\x{1F18} \- hexadicimal (Unicode character)
+\a \- alarm (ring system bell)  
+\x{1F18} \- hexadicimal (Unicode character)  
