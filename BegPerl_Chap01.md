@@ -1,4 +1,5 @@
 # Chap01
+## Perl as a programming language
 1. Machine codes are for computers, while source code for humans. 
 2. "Byte-compiled" languages Perl and Java.
 3. Perl compiler: translate source codes into native machine ones, and run the latter.
@@ -20,4 +21,5 @@ For Perl 5.6.x and higher:
 **#! usr/bin/env perl  
 use warning;**  
   
+## Program structure
 10. **Keywords** come in several classes called **functions**.
