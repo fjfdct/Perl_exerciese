@@ -29,11 +29,11 @@ use warning;**
 
 ## Character set
 14. ASCII: consists of 1 Octet (Byte) = 8 bit (thus 2^8 = 256, running from 0 to 255).
-15. (**Perl 5.6+**) Unicode: UTF8 for 2 Octet (Byte) = 16 bit (thus 2^(2*8) = 65536, running from 0 to 65535).
+15. (**Perl 5.6+**) Unicode: UTF8 for 2 Octet (Byte) = 16 bit (thus 2^(2*8) = 65536, running from 0(0000) to 65535(FFFF)).
 
 ## Common escape sequences
 \t \- tab  
 \n \- newline (start a new line)  
 \b \- backspace (back up one character)  
-\a \- alarm (ring system bell)
-\x{1F18} \- Unicode character
+\a \- alarm (ring system bell)  
+\x{1F18} \- hexadicimal (Unicode character)
