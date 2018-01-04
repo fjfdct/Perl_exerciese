@@ -22,12 +22,12 @@ For Perl 5.6.x and higher:
 use warning;**  
   
 ## Program structure
-10. **Keywords** come in several classes called **functions**(_"verbs"_).
-11. **Statements**(_"sentences"_): end with a semicolon "**;**".
-12. Statement **blocks**(_"paragraphs"_): surrounded with braces "**{...}**". (Internal indentation allowed.)
+10. **Keywords** come in several classes called **functions** (_"verbs"_).
+11. **Statements** (_"sentences"_): end with a semicolon "**;**".
+12. Statement **blocks** (_"paragraphs"_): surrounded with braces "**{...}**". (Internal indentation allowed.)
 13. **Pass** multiple **arguments** to a function. Limit them with brackets "**()**".
 
 ## Character set
-14. ASCII: consists of 1 Byte = 8 bit (thus 2^8 = 256 running from 0 to 255).
-15. Unicode: UTF8 for 2 Byte = 16 bit (thus 2^(2*8) = 65536 running from 0 to 65535).
+14. ASCII: consists of 1 Octet (Byte) = 8 bit (thus 2^8 = 256, running from 0 to 255).
+15. (**Perl 5.6+**) Unicode: UTF8 for 2 Octet (Byte) = 16 bit (thus 2^(2*8) = 65536, running from 0 to 65535).
 
