@@ -40,8 +40,3 @@ use warning;**
 
 ## White space
 Free for tabs, spaces and new lines. Very flexible.  
-
-## Number systems
-Binary numbers start with **0b**. (e.g. 0b11111111, gives decimal 255)  
-Octal numbers start with **0**. (e.g. 01101, gives decimal 577)  
-Hexadicimal numbers start with **0x**. (e.g. 0xBEEF, gives decimal 48879)  
