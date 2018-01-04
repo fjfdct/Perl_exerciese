@@ -6,5 +6,6 @@
 
 ## Scalar literal constant: strings
 4. Processing interpolation:
-- Single-quoted: no processing is done within, except **\\** or **\'**.
+- Single-quoted: no processing is done within, except **\\** or **\'**.  
 - Double-quoted: 
+5.
