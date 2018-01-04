@@ -31,3 +31,5 @@ use warning;**
 14. ASCII: consists of 1 Octet (Byte) = 8 bit (thus 2^8 = 256, running from 0 to 255).
 15. (**Perl 5.6+**) Unicode: UTF8 for 2 Octet (Byte) = 16 bit (thus 2^(2*8) = 65536, running from 0 to 65535).
 
+## Common escape sequences
+\t \- tab
