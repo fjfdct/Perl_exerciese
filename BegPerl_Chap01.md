@@ -13,7 +13,7 @@ So Perl is strictly neither a compiled language nor interpreted one.
 ## Hello World
 First line must be:  
 **#! usr/bin/env perl -w**  
-(Or Linux: #! usr/bin/perl -w)  
+(Or Linux: **#! usr/bin/perl -w**)  
 #! tells how the file should be run. Use flag -w to turn on additional warning reporting.  
 
 For Perl 5.6.x and higher:  
