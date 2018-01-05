@@ -117,3 +117,23 @@ print 2 != 4, "\n";
   
 gives: 1  
 
+## String operators
+1. Concatenation: mark \".\" glues two strings together into one, which is needed when strings must be put into a variable. Joining a number into a string will convert evaluation of the expression.  
+2. Repetition: mark "xN" means repeating the string before for N times.  
+  
+e.g.8  
+#! usr/bin/env perl -w  
+use warnings;  
+print "Ba". "na"x2, "\n";  
+  
+gives: Banana
+  
+e.g.9  
+#! usr/bin/env perl -w  
+use warnings;  
+print "Ba". "na"x4*3, "\n";  
+  
+gives: Ba0  
+**When Perl converts a string into a number, it takes any space, an optional minus sign and then as many digits as it can from the beginning of the string, and ignores everyhing else. So nananana was zero.**  
+
+3. 
