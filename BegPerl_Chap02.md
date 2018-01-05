@@ -7,11 +7,10 @@
 4. Bareword: a series of characters outside of a string that Perl doesn't recognize.  
 
 ## Scalar literal constant: strings
-5. Processing interpolation:
-- Single-quoted (not interpolated): no processing is done within, except backslash \\\ or \\'.  
-- Double-quoted (interpolated): variable names inside are replaced by their contents.  
+5. Processing interpolation and delimiters (quote-like operator):
+- Single-quoted (not interpolated) or q//, q||, q(), q(), etc.: no processing is done within, except backslash \\\ or \\'.  
+- Double-quoted (interpolated) or qq//, qq||, qq(), qq(), etc.: variable names inside are replaced by their contents.  
 6. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
-
   
 e.g.1  
 #! usr/bin/env perl -w  
