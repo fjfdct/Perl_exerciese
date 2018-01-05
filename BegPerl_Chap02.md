@@ -50,6 +50,28 @@ gives:
 This is a short text for testing here-document.  
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
 
+## Operator precedence
+(From high to low)  
+1. ->
+2. \*\*
+3. ! ~ \\
+4. =~ !~
+5. \* / % x
+6. \+ \- \.
+7. << >>
+8. < > <= >= lt gt le ge
+9. == != <=> eq ne cmp
+10. &
+11. | ^
+12. &&
+13. ||
+14. .. ...
+15. ?:
+16. , =>
+17. not
+18. and
+19. or xor  
+
 ## Numeric operators
 1. Ordinary arithmetic precedence: high to low.
 - \**\(exponentiation)
@@ -73,25 +95,3 @@ print -2\*\*4, "\n"
 gives: -16
   
 2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on. &(and), |(or), ^(exclusive or), ~(not). 
-
-## Operator precedence
-(From high to low)  
-1. ->
-2. \*\*
-3. ! ~ \\
-4. =~ !~
-5. * / % x
-6. \+ \- \.
-7. << >>
-8. < > <= >= lt gt le ge
-9. == != <=> eq ne cmp
-10. &
-11. | ^
-12. &&
-13. ||
-14. .. ...
-15. ?:
-16. , =>
-17. not
-18. and
-19. or xor
