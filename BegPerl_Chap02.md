@@ -13,7 +13,7 @@
 6. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
 
   
-e.g.  
+e.g.1  
 #! usr/bin/env perl -w  
 use warnings;  
 print "C:\\WINNT\\Profiles\\\n.";  
@@ -23,3 +23,9 @@ print 'C:\WINNT\Profiles\ ', "\n";
 gives:  
 C:\WINNT\Profiles\  
 C:\WINNT\Profiles\  
+
+e.g.2  
+#! usr/bin/env perl -w  
+use warnings;  
+print "'\"Hi,\" said Jack. \"Have you read Slashshot today?\"'\n";  
+print '"Stop!" He cried.';  
