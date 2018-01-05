@@ -51,5 +51,8 @@ This is a short text for testing here-document.
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
 
 ## Numeric operators
-1. Ordinary arithmetic: +(adding), -(subtracting), \*(multiplying), \\\(dividing), \**\(exponentiation), %\(modulo/Remainder) and so on.
-2. 
+1. Ordinary arithmetic precedence: high to low
+- \**\(exponentiation)
+- -(unary minus)
+- \*(multiplying), \\\(dividing),  %(modulo/remainder)
+- +(adding), -(subtracting)
