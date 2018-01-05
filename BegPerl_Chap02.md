@@ -90,12 +90,30 @@ gives: 150
 e.g.5  
 #! usr/bin/env perl -w  
 use warnings;  
-print -2\*\*4, "\n"  
+print -2\*\*4, "\n";  
   
 gives: -16
   
 2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on. &(bit and), |(bit or), ^(bit exclusive or), ~(bit not).  
+  
 e.g.6  
 51(0b00110011) & 85(0b01010101) = 17(0b00010001), 204 | 85 = 221, 204 ^ 170 = 102, ~85 = 170(depends on the computer)  
-3. Boolean: &&(and), ||(or), xor, !(not). **(Alert: operators in the brackets have lower precedence!)**  
-4. Comparison: equality(\=\=, \!=), Inequality(<, >), Special(<=>, 0 equal, 1 left larger, -1 right larger).  
+  
+3. Boolean(0 for false, 1 for true): &&(and), ||(or), xor, !(not). **(Alert: operators in the brackets have lower precedence!)**  
+4. Comparison(return boolean value): equality(\=\=, \!=), Inequality(<, >), Special(<=>, 0 equal, 1 left larger, -1 right larger).  
+5. Lazy evaluation: immediately stop working as soon as the answer is known, omitting succeeding steps.
+  
+e.g.7  
+#! usr/bin/env perl -w  
+use warnings;  
+print 2 == 4, "\n"; 
+  
+gives: (blank)  
+**The undefined value is not simply a string with nothing in it, which in fact is a still a string with no characters. - it is nothing at all, empty, void, although you can use it as a empty string and let it be converted to zero. Instead it is better to test if they are not equal.**  
+  
+#! usr/bin/env perl -w  
+use warnings;  
+print 2 != 4, "\n"; 
+  
+gives: 1  
+
