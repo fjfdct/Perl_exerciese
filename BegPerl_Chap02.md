@@ -152,3 +152,7 @@ gives:
 Which came first, the chicken or the egg? -1  
 Are dogs greater than cats? 1  
 Is ^ less than + ?  
+  
+Types of variable: scalar variable, arrays, hashes. 
+## Scalar variables
+start with a dollar sign "\$"; hold either numbers or strings; assignment operator "=".
