@@ -5,14 +5,14 @@
 - Binary numbers start with **0b**. (e.g. 0b11111111, gives decimal 255)  
 - Octal numbers start with **0**. (e.g. 01101, gives decimal 577)  
 - Hexadicimal numbers start with **0x**. (e.g. hex("0xBEEF") gives decimal 48879)  
-2. Large integers can be split up with underscore **\"_\"** instead of commas, for example print 250_000_000, "/n".
+2. Large integers can be split up with underscore **\"_\"** instead of commas, for example, print 250_000_000, "/n".
 3. Bareword: a series of characters outside of a string that Perl doesn't recognize.  
 
 ## Scalar literal constant: strings
-5. Processing interpolation and delimiters (quote-like operator):
+4. Processing interpolation and delimiters (quote-like operator):
 - Single-quoted (not interpolated) or q//, q||, q(), q(), etc.: no processing is done within, except backslash \\\ or \\'.  
 - Double-quoted (interpolated) or qq//, qq||, qq(), qq(), etc.: variable names inside are replaced by their contents.  
-6. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
+5. **Backwhacking**: operation of escaping, using a backslash to turn off any special effect a character may have.  
   
 e.g.1  
 #! usr/bin/env perl -w  
@@ -36,7 +36,7 @@ gives:
 '"Hi," said Jack. "Have you read Slashdot today?"'  
 "Stop!" He cried.  
   
-7. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the **label** (not the end marker!) in single quotes. Do not put a semicolon after the end marker.
+6. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the **label** (not the end marker!) in single quotes. Do not put a semicolon after the end marker.
 
 e.g.3  
 #! usr/bin/env perl -w  
@@ -49,3 +49,5 @@ Attention: end marker should not be surrounded by single quotes or followed by a
 gives:  
 This is a short text for testing here-document.  
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
+
+## Operators
