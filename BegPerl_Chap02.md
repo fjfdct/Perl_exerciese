@@ -34,6 +34,14 @@ gives:
 '"Hi," said Jack. "Have you read Slashdot today?"'  
 "Stop!" He cried.  
   
-7. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the **label** (not the end marker!) in single quotes.
+7. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the **label** (not the end marker!) in single quotes. Do not put a semicolon after the end marker.
+
+e.g.3  
+#! usr/bin/env perl -w  
+use warnings;  
+print<<'Marker';  
+This is a short text for testing here-document.  
+Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
+**Marker**  
 
 
