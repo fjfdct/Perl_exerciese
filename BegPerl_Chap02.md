@@ -74,3 +74,8 @@ gives: -16
   
 2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on.  
 
+## Operator precedence
+(From high to low)  
+1. ->
+2. \*\*
+3. ! ~ \\
