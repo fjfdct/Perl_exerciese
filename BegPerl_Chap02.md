@@ -1,12 +1,12 @@
 # Chap02 Working with Simple Values
 
 ## Scalar literal constant: numbers 
-1. Number systems:
+1. Number systems: use **oct("\*")** to convert anyone below into decimal.
 - Binary numbers start with **0b**. (e.g. 0b11111111, gives decimal 255)  
 - Octal numbers start with **0**. (e.g. 01101, gives decimal 577)  
-- Hexadicimal numbers start with **0x**. (e.g. 0xBEEF, gives decimal 48879)  
-2. Large integers can be split up with underscore **\"_\"** instead of commas.
-4. Bareword: a series of characters outside of a string that Perl doesn't recognize.  
+- Hexadicimal numbers start with **0x**. (e.g. hex("0xBEEF") gives decimal 48879)  
+2. Large integers can be split up with underscore **\"_\"** instead of commas, for example print 250_000_000, "/n".
+3. Bareword: a series of characters outside of a string that Perl doesn't recognize.  
 
 ## Scalar literal constant: strings
 5. Processing interpolation and delimiters (quote-like operator):
