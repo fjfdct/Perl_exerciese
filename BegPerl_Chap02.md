@@ -94,4 +94,5 @@ print -2\*\*4, "\n"
   
 gives: -16
   
-2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on. &(and), |(or), ^(exclusive or), ~(not). 
+2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on. &(and), |(or), ^(exclusive or), ~(not).  
+e.g.6 51(0b00110011) & 85(0b01010101) = 17(0b00010001), 204 | 85 = 221, 204 ^ 170 = 102, ~85 = 170
