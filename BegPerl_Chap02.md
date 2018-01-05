@@ -27,5 +27,8 @@ C:\WINNT\Profiles\
 e.g.2  
 #! usr/bin/env perl -w  
 use warnings;  
-print "\'\\"Hi,\\" said Jack. \\"Have you read Slashshot today?\\"\'\n";  
+print "\'\\"Hi,\\" said Jack. \\"Have you read Slashdot today?\\"\'\n";  
 print '"Stop!" He cried.', "\n";  
+
+gives:  
+"Hi," said Jack. "Have you read Slashdot today?"  
