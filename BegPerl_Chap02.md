@@ -156,5 +156,5 @@ Is ^ less than + ?
 Types of variable: scalar variable, arrays, hashes. 
 ## Scalar variables
 start with a dollar sign "\$"; hold either numbers or strings; assignment operator "=".
-1. Modifying at once:<op> can be \*\*, \*, \+, \-, \/, \., \%, \&, \|  
-$a = $a <op> $b; can be written as $a <op>= $b;
+1. Modifying at once:<op> can be \*\*, \*, \+, \-, \/, \., \%, \&, \|, \^, \<\<, \>\>, \&\& and \|\|.  
+$a = $a \<op\> $b; can be written as $a \<op\>= $b;
