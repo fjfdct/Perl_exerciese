@@ -18,7 +18,7 @@ e.g.1
 use warnings;  
 print "C:\\WINNT\\Profiles\\\n.";  
 print 'C:\WINNT\Profiles\ ', "\n";  
-**(Do not leave off the white space! Otherwise Perl will treat it as backslash \\' and return error message saying "can not find string terminator ' anywhere before EOF".)**  
+**(\n needs a separate double-quotes to make it interpolate. Do not leave off the white space! Otherwise Perl will treat it as backslash \\' and return error message saying "can not find string terminator ' anywhere before EOF".)**  
   
 gives:  
 C:\WINNT\Profiles\  
@@ -31,4 +31,5 @@ print "\'\\"Hi,\\" said Jack. \\"Have you read Slashdot today?\\"\'\n";
 print '"Stop!" He cried.', "\n";  
 
 gives:  
-"Hi," said Jack. "Have you read Slashdot today?"  
+'"Hi," said Jack. "Have you read Slashdot today?"'  
+"Stop!" He cried.  
