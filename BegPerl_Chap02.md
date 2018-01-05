@@ -63,5 +63,13 @@ use warnings;
 \# print (3 + 7) \* 15, "\n"; Print is itself an operator with highest precedence. This statement will get a warning and return 10.
 print ((3 + 7) \* 15), "\n"  
   
-gives: 150
-
+gives: 150  
+  
+e.g.5  
+#! usr/bin/env perl -w  
+use warnings;  
+print -2\*\*4, "\n"  
+  
+gives: -16
+  
+2.
