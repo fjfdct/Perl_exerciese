@@ -51,5 +51,5 @@ This is a short text for testing here-document.
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
 
 ## Numeric operators
-1. Ordinary arithmetic: +(adding), -(subtracting), \*(multiplying), \\\(dividing), \**\(exponentiation) and so on.
+1. Ordinary arithmetic: +(adding), -(subtracting), \*(multiplying), \\\(dividing), \**\(exponentiation), %\(modulo/Remainder) and so on.
 2. 
