@@ -136,4 +136,14 @@ print "Ba". "na"x4*3, "\n";
 gives: Ba0  
 **When Perl converts a string into a number, it takes any space, an optional minus sign and then as many digits as it can from the beginning of the string, and ignores everyhing else. So nananana was zero.**  
 
-3. 
+3. String comparison: gt(greater than), lt(less than), eq(equal to), ne(not equal), ge(greater than **or** equal to), le(less than **and** equal to), cmp(three-way-comparison).
+
+e.g.10  
+#! usr/bin/env perl -w  
+use warnings;  
+print"Which came first, the chicken or the egg? ";  
+print "chicken" cmp "egg", "\n";  
+print "Are dogs greater than cats? ";  
+print "dog" gt "cat", "\n";  
+print "Is ^ less than + ? ";  
+print "^" lt "+", "\n";  
