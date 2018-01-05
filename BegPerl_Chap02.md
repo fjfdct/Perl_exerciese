@@ -51,7 +51,7 @@ This is a short text for testing here-document.
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
 
 ## Numeric operators
-1. Ordinary arithmetic precedence: high to low
+1. Ordinary arithmetic precedence: high to low.
 - \**\(exponentiation)
 - -(unary minus)
 - \*(multiplying), \\\(dividing),  %(modulo/remainder)
@@ -61,7 +61,7 @@ e.g.4
 #! usr/bin/env perl -w  
 use warnings;  
 \# print (3 + 7) \* 15, "\n"; Print is itself an operator with highest precedence. This statement will get a warning and return 10.
-print ((3 + 7) \* 15), "\n"  
+print ((3 + 7) \* 15), "\n";  
   
 gives: 150  
   
@@ -72,4 +72,5 @@ print -2\*\*4, "\n"
   
 gives: -16
   
-2.
+2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on.  
+
