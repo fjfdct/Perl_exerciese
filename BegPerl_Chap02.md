@@ -33,3 +33,5 @@ print '"Stop!" He cried.', "\n";
 gives:  
 '"Hi," said Jack. "Have you read Slashdot today?"'  
 "Stop!" He cried.  
+  
+7. Here-document: specify large amount of string.
