@@ -34,6 +34,6 @@ gives:
 '"Hi," said Jack. "Have you read Slashdot today?"'  
 "Stop!" He cried.  
   
-7. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the label in single quotes.
+7. **Here-document**: specified large amount of string. Start with **\"<<\"** directly followed by custom label and no space between. End marker in the name of custom label is found at the beginning at a line. By default it works like a doube-quoted string. In order to make it work like a single-quoted string, surround the **label** (not the end marker!) in single quotes.
 
 
