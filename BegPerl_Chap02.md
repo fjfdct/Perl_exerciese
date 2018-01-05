@@ -50,4 +50,6 @@ gives:
 This is a short text for testing here-document.  
 Attention: end marker should not be surrounded by single quotes or followed by a semicolon.  
 
-## Operators
+## Numeric operators
+1. Ordinary arithmetic: +(adding), -(subtracting), \*(multiplying), \\\(dividing) and so on.
+2. 
