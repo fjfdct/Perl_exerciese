@@ -34,4 +34,5 @@ gives:
 '"Hi," said Jack. "Have you read Slashdot today?"'  
 "Stop!" He cried.  
   
-7. Here-document: specify large amount of string.
+7. Here-document: specify large amount of string. Begin with \"<<\" directly followed by custom label, end with custom labe;.  
+
