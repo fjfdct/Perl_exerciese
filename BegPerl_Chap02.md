@@ -99,7 +99,7 @@ gives: -16
 e.g.6  
 51(0b00110011) & 85(0b01010101) = 17(0b00010001), 204 | 85 = 221, 204 ^ 170 = 102, ~85 = 170(depends on the computer)  
   
-3. Boolean(0 for false, 1 for true): &&(and), ||(or), xor, !(not). **(Alert: operators in the brackets have lower precedence!)**  
+3. Boolean(0 for false, 1 for true): &&(and), ||(or), (xor), !(not). **(Alert: operators in the brackets have lower precedence!)**  
 4. Comparison(return boolean value): equality(\=\=, \!=), Inequality(<, >), Special(<=>, 0 equal, 1 left larger, -1 right larger).  
 5. Lazy evaluation: immediately stop working as soon as the answer is known, omitting succeeding steps.
   
