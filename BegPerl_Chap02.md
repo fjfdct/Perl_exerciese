@@ -72,7 +72,7 @@ print -2\*\*4, "\n"
   
 gives: -16
   
-2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on.  
+2. Bitwise: work from **right(LSB, Least Significant Bit) to left(MSB, Most Significant Bit)**. Can be used to dealing with low-level file access and so on. &(and), |(or), ^(exclusive or), ~(not). 
 
 ## Operator precedence
 (From high to low)  
