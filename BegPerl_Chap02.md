@@ -147,3 +147,8 @@ print "Are dogs greater than cats? ";
 print "dog" gt "cat", "\n";  
 print "Is ^ less than + ? ";  
 print "^" lt "+", "\n";  
+
+gives:  
+Which came first, the chicken or the egg? -1  
+Are dogs greater than cats? 1  
+Is ^ less than + ?  
