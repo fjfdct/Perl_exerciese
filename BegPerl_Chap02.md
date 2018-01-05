@@ -17,7 +17,8 @@ e.g.
 #! usr/bin/env perl -w  
 use warnings;  
 print "C:\\WINNT\\Profiles\\\n.";  
-print 'C:\WINNT\Profiles\ ', "\n";(Do not leave off the white space!)  
+print 'C:\WINNT\Profiles\ ', "\n";
+(Do not leave off the white space! Otherwise Perl will treat it as backslash \\' and return "can not find string terminator ' anywhere before EOF.)  
   
 gives:  
 C:\WINNT\Profiles\  
