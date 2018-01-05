@@ -1,5 +1,5 @@
 # Chap02 Working with Simple Values
-
+Types of data: scalars, lists, hashes.  
 ## Scalar literal constant: numbers 
 1. Number systems: use **oct("\*")** to convert anyone below into decimal.
 - Binary numbers start with **0b**. (e.g. 0b11111111, gives decimal 255)  
