@@ -55,4 +55,13 @@ Attention: end marker should not be surrounded by single quotes or followed by a
 - \**\(exponentiation)
 - -(unary minus)
 - \*(multiplying), \\\(dividing),  %(modulo/remainder)
-- +(adding), -(subtracting)
+- +(adding), -(subtracting)  
+  
+e.g.4  
+#! usr/bin/env perl -w  
+use warnings;  
+\# print (3 + 7) \* 15, "\n"; Print is itself an operator with highest precedence. This statement will get a warning and return 10.
+print ((3 + 7) \* 15), "\n"  
+  
+gives: 150
+
