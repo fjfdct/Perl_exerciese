@@ -170,3 +170,7 @@ print "Assignment happens after the increment", $b, "\n";
 gives:  
 Assignment happens before the increment: 5  
 Assignment happens after the increment: 12  
+  
+3. Scoping:
+- Global: can be called and changed from anywhere in the program.  
+- Lexical: use \"my $variable\". Constrained to the enclosing block and all blocks inside it. If they're not inside a block, they are constrained to the current file.
