@@ -171,6 +171,9 @@ gives:
 Assignment happens before the increment: 5  
 Assignment happens after the increment: 12  
   
-3. Scoping:
-- Global: can be called and changed from anywhere in the program.  
-- Lexical: use \"my $variable\". Constrained to the enclosing block and all blocks inside it. If they're not inside a block, they are constrained to the current file.
+3. Scoping: \"**use strict**\" to be clear.
+- Global variables: use \"**our $variable**\". Can be called and changed from anywhere in the program.  
+- Lexical variables: use \"**my $variable**\". Constrained to the enclosing block and all blocks inside it. If they're not inside a block, they are constrained to the current file.  
+
+4. Variable names: \"**$_**\" is the \"default variable\" combination of numbers, letters or a underscores, case-sensitive and up to a total of 251 characters.  
+
