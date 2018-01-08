@@ -160,8 +160,8 @@ start with a dollar sign "\$"; hold either numbers or strings; assignment operat
 $a = $a \<op\> $b; can be written as $a \<op\>= $b;
 2. Autoincrement and autodecrement: \"++\" and \"--\", the same as those in C.  
 e.g.11  
-$a=4; $b=10;
-$b=$a\+\+;
+$a=4; $b=10;  
+$b=$a\+\+;  
 print "Assignment happens before the increment", $b, "\n";  
 $b=\+\+$a*2;  
 print "Assignment happens after the increment", $b, "\n";  
